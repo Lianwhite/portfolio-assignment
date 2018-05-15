@@ -24,7 +24,7 @@ include 'php/dbconnect.php';
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
@@ -48,16 +48,16 @@ include 'php/dbconnect.php';
             <li ><a  href="#" id="click"><i class="fa fa-user-circle-o" aria-hidden="true" ></i>
                         </a></li> 
                 <li class="dropdown"><a href="#" class="profile" id="profiledropdown">Profile</a></li>         
-                <li><a href="#">Home</a></li>
+                <li><a href="portfolio.php">Home</a></li>
                 <li><a href="#"  class="sos" id="bardom">Social</a></li>
                 
         </ul>
           <ul class="profileicons" id="bar">
-                  <li class="list-item-social-icon" ><a  href="https://medium.com/@benadam11" target ="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+                  <li class="list-item-social-icon" ><a  href="https://www.instagram.com/duke_tonye/" target ="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
                         </a></li>
-                  <li class="list-item-social-icon "><a  href="https://twitter.com/benadam11" target ="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-item-social-icon"><a  href="https://dribbble.com/benadam11" target ="_blank"><i class="fa fa-dribbble"></i></a></li>
-                  <li class="list-item-social-icon"><a  href="https://github.com/benadam11" target ="_blank"><i class="fa fa-github"></i></a></li>  
+                  <li class="list-item-social-icon "><a  href="https://twitter.com" target ="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-item-social-icon"><a  href="https://www.facebook.com/tonye.duke1" target ="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-item-social-icon"><a  href="https://github.com/Lianwhite" target ="_blank"><i class="fa fa-github"></i></a></li>  
                  
                 </ul>  
                 
@@ -71,7 +71,7 @@ include 'php/dbconnect.php';
       <div class="p1">
           
         <p>Hi, <br>
-            I'm <span class="span">D</span>uke, <br> Web developer.
+            I'm <span class="span">D</span>uke, <br> Front-end developer.
         </p>
         
         <div id="profile">

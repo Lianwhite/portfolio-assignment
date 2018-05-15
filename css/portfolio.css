@@ -91,13 +91,13 @@ body{
   
  
  
- 
+
   .section2{
-   position: relative;
-   top:100px;
-   height:100px;
+  position: relative;
+    top:100px;
+   height:100px; 
    width:100%;
-  }
+  } 
   
  .p1{
    font-family:Arial;
@@ -105,7 +105,7 @@ body{
    font-size: 50px;
    color: white;
    text-align: left;
-   margin-left:120px;
+   /* margin-left:120px; */
    text-decoration-style: wavy;
    
  }
@@ -113,6 +113,23 @@ body{
    color:rgb(172, 41, 41);
  }
 
+  .span1{
+    animation-name: span;
+    position: relative;
+    animation: heading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading{
+    0% {
+      left: -100px;
+    }
+    100%{
+        left:100px;
+    }
+}
+ 
  
  #profile{
    display: none;

@@ -70,7 +70,7 @@ include 'php/dbconnect.php';
     
       <div class="p1">
           
-        <p>Hi, <br>
+        <p class="span1">Hi, <br>
             I'm <span class="span">D</span>uke, <br> Front-end developer.
         </p>
         

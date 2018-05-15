@@ -105,7 +105,7 @@ body{
    font-size: 50px;
    color: white;
    text-align: left;
-   /* margin-left:120px; */
+   margin-left:120px;
    text-decoration-style: wavy;
    
  }
@@ -123,10 +123,10 @@ body{
 
 @keyframes heading{
     0% {
-      left: -100px;
+      left: -1000px;
     }
     100%{
-        left:100px;
+        left:0px;
     }
 }
  

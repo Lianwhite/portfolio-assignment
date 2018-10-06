@@ -27,6 +27,10 @@ include 'php/dbconnect.php';
     <title>portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+    
    
 
 
@@ -35,36 +39,33 @@ include 'php/dbconnect.php';
 </head>
 <body onload="slide();">
     <div id="login">
-            Username:<input type="text" class="log" placeholder="username" id="username"><br><br>
-            Password:<input type="password" class="log" id="password"><br><br>
-            <button type="submit" id="loginsub">login</button>
-        </div>
-  <div class="container">
+       <label for="username">Username</label> :<input type="text" class="log" placeholder="username" id="username"><br><br>
+       <label for="password">Password</label> :<input type="password" class="log" id="password"><br><br>
+        <button type="submit" id="loginsub">login</button>
+    </div>
+    <div class="container">
      
-      <div class="box2">
-          <img src="img/www.png" alt="" width="15%" height="60px" margin-left="20px" class="">
-        <nav>
-            <ul class="navmenu">
-            <li ><a  href="#" id="click"><i class="fa fa-user-circle-o" aria-hidden="true" ></i>
-                        </a></li> 
-                <li class="dropdown"><a href="#" class="profile" id="profiledropdown">Profile</a></li>         
-                <li><a href="portfolio.php">Home</a></li>
-                <li><a href="#"  class="sos" id="bardom">Social</a></li>
-                
-        </ul>
-          <ul class="profileicons" id="bar">
-                  <li class="list-item-social-icon" ><a  href="https://www.instagram.com/duke_tonye/" target ="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a></li>
-                  <li class="list-item-social-icon "><a  href="https://twitter.com" target ="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-item-social-icon"><a  href="https://www.facebook.com/tonye.duke1" target ="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li class="list-item-social-icon"><a  href="https://github.com/Lianwhite" target ="_blank"><i class="fa fa-github"></i></a></li>  
-                 
-                </ul>  
-                
-        </nav>
+        <div class="box2">
+            <img src="img/frame.png" alt="" width="12%" height="60px" margin-left="90px" class="">
+            <nav>
+                <ul class="navmenu">
+                    <li ><a  href="#" id="click"><i class="fa fa-user-circle-o" aria-hidden="true" ></i>
+                            </a></li> 
+                    <li class="dropdown"><a href="#" class="profile links" id="profiledropdown">Profile</a></li>         
+                    <li><a href="portfolio.php" class="links">Home</a></li>
+                    <li><a href="#"  class="sos links" id="bardom" >Social</a></li>
+                    
+                </ul>
+                <ul class="profileicons" id="bar">
+                    <li class="list-item-social-icon" ><a  href="https://www.instagram.com/duke_tonye/" target ="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a></li>
+                    <li class="list-item-social-icon "><a  href="https://twitter.com" target ="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-item-social-icon"><a  href="https://www.facebook.com/tonye.duke1" target ="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-item-social-icon"><a  href="https://github.com/Lianwhite" target ="_blank"><i class="fa fa-github"></i></a></li>  
+                </ul>      
+            </nav>
 
-        
-      </div>
+    </div>
       
     <div class="section2">
     
@@ -122,40 +123,45 @@ include 'php/dbconnect.php';
     <div class="section3">
         <div>
           <img src="img/duke.jpg" alt="" class="duke">
-          <div class="p2"><p class="p3"><h2>ABOUT ME</h2></p>
+          <div class="p2 about"><p class="p3"><h2>ABOUT ME</h2></p>
            <p><?php echo $row["about_me"] ?>  </p>
           </div>
         </div>
-          <div class="html">
-              <div id="duke">
-                <img  />
-              </div>
-              <div class="p2"><p class="h2"><h2>EXPERIENCE</h2></p>
+        <div class="html">
+            <div id="duke">
+            <img  />
+            </div>
+            <div class="p2 exp"><p class="h2"><h2>EXPERIENCE</h2></p>
                 <p>My orientation about Operating System has changed. 
                 I had to ditch my windows mentality and become open to a New
                 different and better way of operating my computer. I was 
                 introduced to the open source world and got to know Linux
                 Ubuntu.
-                <p>Technically, i've learnt things ranging from softwares,
-                  new programming languages, web design, etc.</p>
+                <p>Technically, i've learnt things ranging from softwares, UI/UX design,
+                new programming languages, web design, web hosting management, etc.</p>
                 </p>
             </div>
-       
-          </div>
+    
+        </div>
     </div>
 
-    <div class="section4">
-        <p class="news">Send a mail</p>
-        <form><input type"text" placeholder="enter your email">
-          <button type="submit">send</button></form>
-
+    <div class="contact-section ">
+        <h2 class="contact_me">CONTACT ME</h2>
+        <div class="contact">
+            <input type="text" placeholder="Name" class="contact_input">
+            <input type="text" placeholder="Email Address" class="contact_input">
+            <input type="text" placeholder="Phone Number" class="contact_input">
+            <input type="text" placeholder="Message" class="contact_input"> 
+        </div>
+        <button type="submit" class="contact-button">Send</button>
     </div>
+    
 
     <footer>copyright&COPY;2018</footer>
 
 
 
-  </div>
+ 
 
     
 

@@ -1,15 +1,15 @@
 body{
-    font-family: 'Times New Roman';
-   max-width:100%;
+   /* max-width:100%; */
    margin:0;
-   background-image:url('../img/banner.jpg');
-   /* background-attachment: fixed; */
-   background-size:100%;
-   background-repeat: repeat-y;
+   
  }
  
  .container{
-   height:1200px;
+  background-image:url('../img/banner.jpg');
+   /* background-attachment: fixed; */
+   background-size:100%;
+   background-repeat: repeat-y;
+   height:1146px;
  }
  
  
@@ -121,7 +121,7 @@ body{
    
  }
  .span{
-   color:rgb(172, 41, 41);
+   color:#F45C43;
  }
 
   .span1{
@@ -201,7 +201,7 @@ body{
   border-color:black;
   background-color: whitesmoke;
   height:600px;
-  margin-top:250px;
+  margin-top:150px;
   /* position: relative;
   top:250px; */
 
@@ -330,7 +330,7 @@ body{
    flex-direction: column;
    /* border:2px solid black; */
    background-color: whitesmoke;
-   margin-top: 300px;
+   margin-top: 100px;
  }
  .contact{
    display:flex;
@@ -362,7 +362,7 @@ body{
    height:45px;
    width:100%;
    position: relative;
-   top:300px;
+   top:10px;
    text-align: center;
    font-size: 20px;
    background-color: #606a76;
